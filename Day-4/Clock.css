@@ -11,6 +11,8 @@ body{
     margin: auto;
     margin-top: 40px;
     padding: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     
    
 }
@@ -20,8 +22,8 @@ body{
     height: 270px;
     width: 280px;
     margin: auto;
-    margin-top: 13.5px;
-    margin-left: 12px;
+    margin-top: 15px;
+    margin-left: 11px;
     
     
 }
@@ -45,7 +47,7 @@ img{
     border-radius: 10px;
     background-color:red;
     left:683px;
-    top:185px;
+    top:180px;
   }
 
 @keyframes animate
@@ -71,7 +73,7 @@ img{
     border-radius: 10px;
     background-color: black;
     left:683px;
-    top:182px;
+    top:180px;
   }
 
 .hour{
@@ -85,5 +87,10 @@ img{
     border-radius: 10px;
     background-color: black;
     left:683px;
-    top:212px;
+    top:210px;
     }
+
+
+
+
+  /*  https://lh3.googleusercontent.com/proxy/ULS0AKw89MUcpZz9zwUQr0M-ERN2FrALTI9DYvV6anQxJCPXY6Z6vlwxHtGd0eK26gdmIxCSZ1t9OwI1g9_SR2MgfCC3EmAnY91-LSiwQ4RM/*
