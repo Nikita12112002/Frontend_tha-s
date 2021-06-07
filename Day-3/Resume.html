@@ -2,6 +2,8 @@
 
  <head>
    
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
    <title>
       Resume
 	</title>
@@ -12,11 +14,12 @@
 	  table , td , th{
 	     border-collapse:collapse;
 		 border-style:solid;
+		 
 	  }
 	  
 	  table{
 	        width:50%;
-			margin-left:130px;
+			margin-left:160px;
 	       }
 		   
 		  th
@@ -37,7 +40,7 @@
 	  
 	  div.one{
 	  
-	     height:1200px;
+	     height:1240px;
 		 width:300px;
 		 background-color:#0b2e63;
 		 float:left;
@@ -53,9 +56,23 @@
 	  }
 	  
 	  div.zero{
-	           border-style:solid;
-			   margin:130px;
-			   height:1200px;
+	           border-style:none;
+			   margin:auto;
+			   height:1240px;
+			   box-shadow: 0 0 6px gray;
+			   margin-top: -30px;
+			   width: 1000px;
+			   margin-top: 20px;
+			   
+	  }
+
+	  li{
+		  margin-top: -20px;
+		  font-weight: bold;
+	  }
+
+	  p{
+		  margin-left: 60px;
 	  }
 	  
 	</style>
@@ -64,18 +81,12 @@
  
  <body>
 
-<br><br>
- <h1 style="text-align:center"> RESUME </h1>
- 
- <div class="zero">
+  <div class="zero">
  
  <div class="one">
  
-  
-  <img src="data:image/jpeg;base64,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"
-  
-  style="width:300px ;height:230px"
-  />
+  <img src="https://media-exp1.licdn.com/dms/image/C5603AQG1i1R5xG5c2A/profile-displayphoto-shrink_800_800/0/1620889681718?e=1628726400&v=beta&t=qm5-LduQQrsBUh167H6qs9TcW_M09u1P6AkYjx0YOoU"
+  style=" height: 300px; width: 300px; border-radius: 50%;"/>
   
   <h3 style="font-weight:bold ; color:white ;background-color:#7aabf5">PERSONAL INFORMATION</h3>
    <big style="color:white  ">
@@ -86,7 +97,7 @@
    Fathers name: Mr.Ashok kumar Gupta<br><br>
    Nationality:Indian<br><br>
    Phone no-9526815000
-     </big>
+   </big>
    
    
    <br><br>
@@ -132,7 +143,7 @@
 	<br>
 	
 	
-	</big>
+   </big>
 	
 	<br><br>
 	
@@ -153,16 +164,18 @@
  
  <div class="two">
  <br><br>
- <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:30px;"> <u>ABOUT ME </u> </span>
+ <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:60px;"> <u>ABOUT ME </u> </span>
  
  <br><br>
  
- <big style="margin-left:30px"> Seeking a beginner role to enhance and explore my technical knowledge gained at AKTU University in the last three years. 
- I hold a B.Tech degree from KIET GROUP OF INSTITUTIONS college. </big>
+ <div style="margin-left:60px ; font-size: 18px"> 
+ <p	style="margin-left:60px ;font-family: 'Pacifico', cursive;" >Seeking a beginner role to enhance and explore my technical knowledge gained at AKTU University in the last four years. 
+ I hold a B.Tech degree from KIET GROUP OF INSTITUTIONS college.Self motivated and learning enthusiast , willing to contribute in organization growth and success </p>
+</div>
  
- <br><br><br>
+ <br><br>
  
- <span style="font-size:27px  ; font-weight:bold ; color:#0b2e63;margin-left:30px;" > <u>EDUCATIONAL QUALIFICATION</u></span>
+ <span style="font-size:27px  ; font-weight:bold ; color:#0b2e63;margin-left:60px;" > <u>EDUCATIONAL QUALIFICATION</u></span>
  
  <br><br>
  
@@ -198,33 +211,67 @@
  
  </table>
  
- <br><br>
+ <br><br><br>
  
- <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:30px;"><u>CERTIFICATIONS</u> </span>
- 
- <br><br>
- 
- <big> 
-     <span style="margin-left:30px"> 1.Debate competition <br></span>
-      <span style="margin-left:30px"> 2.Calligraphies.<br> </span>
-	   
- </big>
- 
- 
+ <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:60px;"><u>CERTIFICATIONS</u> </span>
  
  <br><br>
  
- <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:30px;"><u>HOBBIES</u> </span>
+ <div style="margin-left:60px ; font-size:18px"> 
+<ul>
+	<li style="margin-left:60px">Debate</li> <br>
+	<li style="margin-left:60px">Calligraphies (English & Hindi)</li> <br>
+	<li style="margin-left:60px">Coursera Course bussiness english for cross cultural communication</li> <br>
+	<li style="margin-left:60px">Courseera Course for Data structures and algorithm</li> <br>
+	<li style="margin-left:60px">Couseera Course for python basics</li> <br>
+	<li style="margin-left:60px">Courseera Course for Programming fundamentals</li> <br>
+	
+</ul>
+ </div>
+ 
+ 
+ 
+ <br>
+ 
+ <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:60px;"><u>HOBBIES</u> </span>
  
  <br><br>
  
- <big style="margin-left:30px"> 
-      <span style="margin-left:3px">1.Dancing <br> </span>
-        <span style="margin-left:30px">2.Designing<br></span>
-	  <span style="margin-left:30px"> 3.Exploring more about technologies</span>
- </big>
+ <div style="margin-left:60px ; font-size: 18px;"> 
+	<ul>
+		<li style="margin-left:60px">Dancing</li> <br>
+		<li style="margin-left:60px">Designing</li> <br>
+		<li style="margin-left:60px">Exploring more about technologies</li> <br>
+		
+		
+	</ul>
+ </div>
+
+ <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:60px;"><u>PROJECTS</u> </span>
+
+ <br><br>
+ <div style="margin-left:60px ; font-size: 18px;"> 
+	<ul>
+		<li style="margin-left:60px">E-COMMERCE website using html css and react.js</li> <br>
+		<li style="margin-left:60px">To-Do app using react</li> <br>
+		<li style="margin-left:60px">Clock using html and css</li> <br>
+	
+		
+	</ul>
+ </div>
  
- 
+ <span style="font-size:27px ;font-weight:bold ;color:#0b2e63;margin-left:60px;"><u>INTERNSHIPS</u> </span>
+
+ <br><br>
+ <div style="margin-left:60px ; font-size: 18px;"> 
+	<ul>
+		<li style="margin-left:60px">Devsnest Training Program</li> <br>
+		<li style="margin-left:60px">Innovation center at KIET GROUP OF INSTITUTIONS</li> <br>
+		
+	
+		
+	</ul>
+ </div>
  
  </div>
  
@@ -237,3 +284,4 @@
 
 
 
+ 
