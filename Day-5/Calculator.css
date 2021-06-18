@@ -1,6 +1,8 @@
 body{
     padding:60px;
     background-color: rgb(214,214,214);
+   
+
     
 }
 
@@ -13,6 +15,7 @@ body{
     box-shadow: 5px 5px 10px #b6a9a9 , -5px -5px 10px #ffffff;
     margin:  auto;
     margin-left: 480px;
+    margin-top: 10px;
     
 }
 
@@ -50,7 +53,7 @@ body{
     border: none;
     outline: none;
     background: transparent;
-    box-shadow: inset 5px 5px 10px #faf4fa ,  inset -5px -5px 10px  #b6acac;
+    box-shadow: 5px 5px 10px #b6acac,  -5px -5px 10px  #faf4fa ;
     font-weight: 900;
     border-radius:8px;
     width: 50px;
@@ -61,7 +64,8 @@ body{
 
 .button:active{
 
-    box-shadow:  5px 5px 10px #b6acac,  -5px -5px 10px  #faf4fa ;
+    box-shadow: inset 5px 5px 10px #faf4fa ,  inset -5px -5px 10px  #b6acac;
+    
 }
 
 .space_top{
@@ -98,6 +102,11 @@ body{
     height: 40px;
 }
 
+.clear_button:active{
+      
+    box-shadow: 5px 5px 10px #b6acac,  -5px -5px 10px  #faf4fa ;
+}
+
 .math{
 
     background: black;
@@ -109,6 +118,11 @@ body{
     height: 40px;
 }
 
+.math:active{
+                 
+    box-shadow: 5px 5px 10px #b6acac ,  -5px -5px 10px    #faf4fa;
+}
+
 .clear{
 
     color:red;
@@ -117,6 +131,8 @@ body{
     height: 40px;
     margin-left: 3px;
 }
+
+
 
 .equal{
     margin-left: -37px;
@@ -137,3 +153,152 @@ body{
     margin-top: 38px;
 }
 
+
+
+
+
+.contain {
+
+    width: 100%;
+    height: 100vh;
+   /* background-color: rgb(214,214,214);*/
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.bub {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: inset 5px -5px 10px gray;
+    border-radius: 50%;
+    /*background-color: rgba(255, 255, 255,.01);*/
+    background : black;
+    position: absolute;
+    bottom: -100px;
+    z-index: -1;
+    /* animation: bubble 3s ease-in infinite; */
+}
+
+.bub::before {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 25px;
+    right: 23px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.bub.a {
+    left: 10%;
+   animation: bubble2 2s ease-in 0.01 s infinite;
+  
+ 
+}
+
+.bub.b {
+    left: 20%;
+    top:34%;
+    animation: bubble 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(250, 121, 121)  , 5px 5px 10px white;
+}
+
+.bub.c {
+    left: 20%;
+    top:70%;
+    animation: bubble2 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(95, 37, 255) ,5px 5px 10px white;
+    
+}
+
+.bub.d {
+    left: 90%;
+    top:14%;
+    animation: bubble 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(255, 129, 129) ,5px 5px 10px white;
+} 
+
+.bub.e {
+    left: 90%;
+    top:78%;
+   animation: bubble2 2s linear infinite;
+   box-shadow: inset 5px -5px 10px rgb(73, 230, 241) ,5px 5px 10px white;
+}
+
+.bub.f{
+    left: 85%;
+    top:44%;
+    animation: bubble 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(130, 252, 163) ,5px 5px 10px white;
+}
+
+.bub.g {
+    left: 50%;
+    top:75%;
+    animation: bubble2 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(243, 122, 122) ,5px 5px 10px white;
+}
+
+.bub.k {
+    left: 70%;
+    top:1%;
+   animation: bubble 2s linear infinite;
+   box-shadow: inset 5px -5px 10px rgb(252, 136, 4) ,5px 5px 10px white;
+}
+
+.bub.i {
+    left: 70%;
+    top:55%;
+   animation: bubble2 2s linear infinite;
+   box-shadow: inset 5px -5px 10px rgb(250, 21, 238) ,5px 5px 10px white;
+}
+
+.bub.j {
+    left: 3%;
+    top:7%;
+    animation: bubble 2s linear infinite;
+    box-shadow: inset 5px -5px 10px rgb(183, 142, 250) ,5px 5px 10px white;
+}
+
+.bub.h {
+    left: 3%;
+    top:45%;
+   animation:bubble2 2s linear infinite;
+   box-shadow: inset 5px -5px 10px rgb(98, 248, 111) ,5px 5px 10px white;
+}
+
+@keyframes bubble {
+   
+    /*0% {
+        opacity: 0;
+    }
+    10%,
+    93% {
+        opacity: 1;
+    }*/
+    100% {
+
+        
+       transform: translate(200px);
+     
+    }
+}
+ /* 100% { transform:rotate(-360deg); } }*/
+
+@keyframes bubble2 {
+   /* 0% {
+        opacity: 0;
+    }
+    10%,
+    93% {
+        opacity: 1;
+    }*/
+    100% {
+        transform: translate(-200px);
+        
+    }
+}
