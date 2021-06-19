@@ -43,21 +43,4 @@ for(i=0 ;i<17 ;i++)
    }
    )
 
- /*var col="<td id='";
-
- for(i=0 ;i<17 ; i++)
- {
-   
-    for(j=0 ;j<61;j++)
-     {
-        var p = table[i][j];
-        console.log(p);
-
- function color()
- {
-    p.classList.toggle("white");
-    console.log("clicked");
-
- }
-}
-}*/
+ 
