@@ -4,6 +4,12 @@ var s = document.querySelectorAll('.grid-item');
 
 var booked = 0;
 var rem = 30;
+ document.getElementById("top").innerHTML= '' +booked;
+
+
+ document.getElementById("top2").innerHTML= '' +rem;
+
+
 
 s.forEach(item=>
  {
@@ -17,6 +23,9 @@ s.forEach(item=>
 
        booked--;
        rem++;
+
+       document.getElementById("top").innerHTML= '' +booked;
+       document.getElementById("top2").innerHTML= '' +rem;
       
        console.log("unclicked");
       }
@@ -27,7 +36,8 @@ s.forEach(item=>
 
         booked++;
         rem--;
-      
+        document.getElementById("top").innerHTML='' + booked;
+        document.getElementById("top2").innerHTML= '' + rem;
         console.log("clicked");
       }
 
