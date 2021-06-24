@@ -1,0 +1,107 @@
+
+body{
+
+    background-image: url("https://image.freepik.com/free-photo/coronavirus-black-background-3d-rendering_156429-1192.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.9;
+    
+}
+
+
+.container{
+
+    background-color: rgb(168, 229, 245);
+    margin: auto;
+    width: 450px;
+    height: 420px;
+    margin-top: 50px;
+    padding:30px;
+    box-shadow: 0px 6px 6px gray;
+   
+    
+}
+
+
+label{
+
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 500;
+    
+}
+
+button{
+
+    text-align: center;
+    margin-top:20px;
+    margin-left: 160px;
+    font-size: 27px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 4px 6px gray;
+    font-family: 'Lobster',cursive;
+    border-radius: 6px;
+    background-color: crimson;
+    background-color: rgb(255, 137, 160);
+   
+    }
+
+    #submit
+    {
+        position: relative;
+    }
+
+    button:active{
+        background-color: crimson;
+       
+    }
+
+    h1{
+        text-align: center;
+        font-family: 'Patrick Hand', cursive
+    }
+
+    #showScore
+    {
+        border: 2px solid black;
+        padding: 4px;
+        text-align:left;
+        margin-top: 150px;
+        background-color: tomato;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    .btn{
+
+        background-color: greenyellow;
+        margin-left: 580px;
+        margin-top:-10px;
+        height:50px;
+        width: 190px;
+    }
+
+    .btn:hover{
+        background-color: white;
+    }
+
+    h3{
+        font-size: 37px;
+        text-align: center;
+        color: black;
+        font-family: 'Patrick Hand', cursive;
+        font-weight: bolder;
+    }
+
+    /*#showScore .scoreArea{
+
+        background-color: greenyellow;
+    }*/
+
+    .show
+    {
+        display: none;
+    }
+
+    
