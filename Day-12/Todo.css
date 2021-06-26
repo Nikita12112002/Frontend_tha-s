@@ -1,0 +1,161 @@
+body{
+    background-image: url("https://www.wearegurgaon.com//wp-content/uploads/2018/08/modern-bazaar-gurgaon.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    margin: auto;
+    background-color:rgb(0, 195, 255);
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    margin-top: 130px;
+  
+}
+
+.inner
+{
+   
+    
+    background-color: rgb(213, 249, 252);
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    
+}
+
+#item
+{
+    margin-left: 10px;
+    height: 36px;
+    width: 290px;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'lobster',cursive;
+    font-weight: 500;
+}
+
+.add_items
+{
+    margin-top:20px;
+}
+
+.plus
+{
+    background-color: black;
+    width: 35px;
+    height: 27px;
+    padding-top:5px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+.plus:hover
+{
+    background-color: red;
+}
+
+.plus:active
+{
+   background-color: rgb(253, 194, 194);
+}
+
+.delete
+{
+    width: 350px;
+    height: 35px;
+   
+    text-align: center;
+    background-color: rgb(179, 11, 11);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'lobster',cursive;
+    position:absolute;
+    bottom: 6px;
+    border-radius: 6px;
+}
+
+.delete:active
+{
+    background-color: burlywood;
+
+}
+
+#btn3
+{
+   background-color: white;    
+   font-size: 15px;
+   margin-left:30px;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   box-shadow: 0px 0px 3px gray;
+   border-radius: 3px;
+   font-family: cursive;
+   font-weight: bold;
+   width:80px;
+}
+
+#btn3:hover
+{
+    background-color: crimson;
+
+}
+
+#btn3:active{
+
+    background-color: rgb(236, 139, 158);
+}
+
+#btn2
+{
+   background-color: white;    
+   font-size: 15px;
+   margin-left: 30px;
+   border: none;
+   outline: none;
+   margin-top: 10px;
+   box-shadow: 0px 0px 3px gray;
+   border-radius: 3px;
+   font-family: cursive;
+   font-weight: bold;
+   width: 70px;
+}
+
+#btn2:hover
+{
+    background-color: crimson;
+
+}
+
+#btn2:active{
+
+    background-color: rgb(236, 139, 158);
+}
+
+#text
+{
+    font-size: 20px;
+    font-family: 'lobster',cursive;
+    font-weight: 500px;
+}
+
+#size
+{
+    font-size: 20px;
+    
+    font-family: 'lobster',cursive;
+    
+    font-weight: 500px;
+
+}
+
+
+

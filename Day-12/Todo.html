@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>TODO-APP</title>
+        <link rel="stylesheet" href="Todo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="inner" style="margin-top: 5px;">
+
+                <div class="add_items">
+                     
+                 <input type="text" name="item" id="item" placeholder="Add your items"/>
+                 <input type="hidden" id="saveindex">
+
+                 <button type="button" class="btn btn-success mr-sm-2" id="savetaskbtn" style="display: none;">
+                    Save Task
+                  </button>
+
+                  <i class="fa fa-plus plus" 
+                  style="font-size:20px;color:white; 
+                  margin-left:5px;"  id="addtaskbtn"></i>
+
+                </div>
+
+                <div>
+                   <button class="delete" id="deleteallbtn">Delete All</button>
+                 </div>
+            
+                 <div>
+
+                    <table id="addedtasklist">
+                        
+                    </table>
+                 </div>
+      
+      
+            </div>
+
+        </div>
+
+        <script src="Todo.js"></script>
+    </body>
+</html>
