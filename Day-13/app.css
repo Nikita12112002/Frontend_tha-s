@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+.heading
+{
+    margin:auto;
+    margin-top: 130px;
+    background-color:transparent;
+    color: white;
+    position: relative;
+    
+} 
+
+.logo
+{
+    margin-top: 5px;
+    height: 90px;
+    width: 160px;
+    margin-left: -300px;
+    background-color: transparent;
+    position: relative;
+}
+.container
+{
+    
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(5, 5, 5);
+    opacity: 0.7;
+   
+}
+
+.center
+{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+
+h1{
+    font-size: 48px;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;;
+    margin-left: 100px;
+   
+}
+
+h3
+{
+    font-size:30px ;
+    margin-left: 120px;
+    font-weight: 200;
+}
+
+h4
+{
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+input{
+
+    height:59px;
+    width: 440px;
+    margin-left: 65px;
+    font-size: 15px;
+  
+
+}
+
+.start
+{
+    height: 59px;
+    width: 200px;
+    margin-left:60px;
+    background-color: #ad0909;
+    color: white;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    float: right;
+    margin-top: -59px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:visited
+{
+    
+    color:white;
+
+}
+
+
